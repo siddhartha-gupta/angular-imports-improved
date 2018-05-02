@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 
-import { CalculatorService } from '../services/calculator.service';
+import { CalculatorService } from '@service/calculator.service';
 
 @Component({
   selector: 'app-root',
